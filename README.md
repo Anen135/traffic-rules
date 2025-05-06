@@ -1,103 +1,101 @@
-# Jekyll Serif Theme
+# Тест по дорожным знакам
 
-Serif is a modern business theme for Jekyll. It contains multiple content types for a typical brochure/marketing website. The theme is fully responsive, blazing fast and artfully illustrated.
+Тема для сайта с тестами по дорожным знакам и правилам дорожного движения. На сайте представлены вопросы с изображениями знаков и вариантами ответов. После прохождения теста отображается результат, а также выделяются правильные и неправильные ответы.
 
-[Live Demo](https://jekyll-serif.netlify.app/) |
-[Zerostatic Themes](https://www.zerostatic.io)
+[Пример работы сайта](https://yourusername.github.io/traffic-rules/) | [GitHub репозиторий](https://github.com/Anen135/traffic-rules)
 
-<a href="https://www.buymeacoffee.com/zerostatic" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+![Тест по дорожным знакам](images\previewpng.png)
 
-![Jekyll Serif Theme screenshot](https://www.zerostatic.io/theme/jekyll-serif/jekyll-serif-screenshot.png)
+### Особенности
 
-### Theme features
+- Использует Jekyll для генерации статического сайта.
+- Простой и понятный интерфейс для прохождения тестов.
+- Поддержка различных типов вопросов с изображениями.
+- Результаты теста отображаются с подсветкой правильных и неправильных ответов.
+- Готово для использования на GitHub Pages.
 
-- Jekyll 4.2+
-- Netlify & Github Pages ready
-- Services (Collection)
-- Team (Collection)
-- Features (Data)
-- SCSS
-- 100% Responsive design, animated hamburger and mobile slide in menu
-- Bootstrap 4.6 - _Only the bootstrap grid and utilites are imported by default. If you want to use more of the Boostrap library you can uncomment the `@import` in `style.scss`_
-- 100/100 Google Lighthouse speed score
-- 100/100 Google Lighthouse seo score
-- 100/100 Google Lighthouse accessibility score
-- 100/100 Google Lighthouse best practices score
-- Under 50KB without images or 80KB with images and illustrations ⚡
-- Under 20KB without Google fonts ⚡⚡⚡
-- Robust example content included
-- Royalty free illustrations included
+## Установка
 
-## Installation
+### Установка Ruby и Jekyll
 
-### Installing Ruby & Jekyll
+Если вы впервые работаете с Jekyll, следуйте [документации Jekyll](https://jekyllrb.com/docs/installation/), чтобы правильно настроить вашу локальную среду (включая Ruby).
 
-If this is your first time using Jekyll, please follow the [Jekyll docs](https://jekyllrb.com/docs/installation/) and make sure your local environment (including Ruby) is setup correctly.
+### Установка темы
 
-### Installing Theme
-
-Download or clone the theme.
-
-To run the theme locally, navigate to the theme directory and run:
+1. Клонируйте репозиторий или скачайте архив с файлами:
 
 ```
+
+git clone [https://github.com/Anen135/traffic-rules.git](https://github.com/Anen135/traffic-rules.git)
+
+```
+
+2. Перейдите в директорию с проектом и установите необходимые зависимости:
+
+```
+
 bundle install
-```
-
-To start the Jekyll local development server.
 
 ```
+
+3. Для запуска локального сервера используйте:
+
+```
+
 bundle exec jekyll serve
-```
-
-To build the theme.
 
 ```
+
+Теперь сайт будет доступен по адресу `http://localhost:4000`.
+
+4. Для сборки сайта в статические файлы:
+
+```
+
 bundle exec jekyll build
+
 ```
 
-## Deployment
+## Развертывание
 
-### Netlify
+### GitHub Pages
 
-Use Netlify to deploy this theme. This theme contains a valid and tested `netlify.toml` - Feel free to use the 1-click deploy below.
+Этот сайт оптимизирован для работы с GitHub Pages. Чтобы разместить сайт на GitHub Pages, выполните следующие шаги:
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zerostaticthemes/jekyll-serif-theme)
+1. Перейдите в настройки вашего репозитория на GitHub.
+2. В разделе "GitHub Pages" выберите ветку (обычно `main` или `gh-pages`) для развертывания.
+3. Убедитесь, что в файле `_config.yml` корректно указан `baseurl`, если сайт будет размещен в подкаталоге (например, `baseurl: "/traffic-rules"`).
 
-### Github Pages
+### Пример URL
 
-This theme has been tested to work with Github Pages (and Github Project Pages). When using Github Pages you will need to update the `baseurl` in the `_config.yml` otherwise all the css, images and paths will be broken.
+Если ваш сайт размещен на GitHub Pages, то он будет доступен по следующему адресу:
 
-For example the site https://zerostaticthemes.github.io/jekyll-serif-theme would have `baseurl: "/jekyll-serif-theme/"`
+```
 
-## Extras
+[https://yourusername.github.io/traffic-rules/](https://yourusername.github.io/traffic-rules/)
 
-### License
+```
 
-- You cannot create ports of this theme
-- You cannot re-sell this theme
+## Лицензия
 
-### Credits
+- Вы не можете создавать порты данной темы.
+- Вы не можете перепродавать данную тему.
 
-- Beautiful royalty free Illustrations by Icons8 - https://icons8.com/illustrations/style--pixeltrue
-- Stock images by Unsplash - https://unsplash.com/
-- Feature icons by Noun Project - https://thenounproject.com/
+## Кредиты
 
-## Support My Work
+- Иллюстрации без авторских прав предоставлены Icons8 - https://icons8.com/illustrations/style--pixeltrue
+- Стоковые изображения предоставлены Unsplash - https://unsplash.com/
+- Иконки предоставлены Noun Project - https://thenounproject.com/
 
-I've been building open source themes for all the main static site generators for over 4 years now. My premium themes allow me to continue to allocate time to maintain, improve and build new open source themes.
+## Поддержите мою работу
 
-1. Leave a star ⭐🙏🏻
-2. Make a contribution to this theme, add a feature, fix a bug, nothing is to small 
-2. Mention this theme on twitter [@zerostaticio](https://twitter.com/zerostaticio) 📢
-3. Purchase a premium theme 🔥
+Я занимаюсь созданием открытых тем для статических сайтов уже более 4 лет. Мои платные темы позволяют мне продолжать работать над поддержкой, улучшением и созданием новых открытых тем.
 
-### All Jekyll Themes by Zerostatic
+1. Поставьте звезду ⭐🙏🏻
+2. Примите участие в проекте, добавьте новую функцию или исправьте баг.
+3. Поддержите мою работу финансово.
+4. Упомяните меня  в pornhub. 💓
 
-- [Jekyll Serif (Open Source)](https://www.zerostatic.io/theme/jekyll-serif/)
-- [Jekyll Atlantic (Open Source)](https://www.zerostatic.io/theme/jekyll-atlantic/)
-- [Jekyll Advance (Premium)](https://www.zerostatic.io/theme/jekyll-advance/)
-- [Jekyll Origin (Premium)](https://www.zerostatic.io/theme/jekyll-origin/)
-- [Jekyll Curate (Premium)](https://www.zerostatic.io/theme/jekyll-curate/)
+### Все проекты на GitHub
 
-🇦🇺 **Made in Australia** by Robert Austin
+- [Тест по дорожным знакам (Open Source)](https://github.com/Anen135/traffic-rules)
