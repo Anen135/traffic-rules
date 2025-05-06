@@ -4,7 +4,7 @@
 
 [Пример работы сайта](https://yourusername.github.io/traffic-rules/) | [GitHub репозиторий](https://github.com/Anen135/traffic-rules)
 
-![Тест по дорожным знакам](images\previewpng.png)
+![Тест по дорожным знакам](/images/previewpng.png)
 
 ### Особенности
 
@@ -51,29 +51,7 @@ bundle exec jekyll serve
 4. Для сборки сайта в статические файлы:
 
 ```
-
 bundle exec jekyll build
-
-```
-
-## Развертывание
-
-### GitHub Pages
-
-Этот сайт оптимизирован для работы с GitHub Pages. Чтобы разместить сайт на GitHub Pages, выполните следующие шаги:
-
-1. Перейдите в настройки вашего репозитория на GitHub.
-2. В разделе "GitHub Pages" выберите ветку (обычно `main` или `gh-pages`) для развертывания.
-3. Убедитесь, что в файле `_config.yml` корректно указан `baseurl`, если сайт будет размещен в подкаталоге (например, `baseurl: "/traffic-rules"`).
-
-### Пример URL
-
-Если ваш сайт размещен на GitHub Pages, то он будет доступен по следующему адресу:
-
-```
-
-[https://yourusername.github.io/traffic-rules/](https://yourusername.github.io/traffic-rules/)
-
 ```
 
 ## Лицензия
