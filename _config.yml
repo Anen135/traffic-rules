@@ -1,23 +1,24 @@
-baseurl: '/'
+baseurl: ''
+description: "Правила дорожного движения"
+url: 'https://Anen135.github.io/traffic-rules'
 permalink: pretty
-title: 'Jekyll Serif'
+title: 'Правила дорожного движения'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
   mobile_width: "32px"
   desktop: "images/logo/logo.svg"
-  desktop_height: "32px"
-  desktop_width: "120px"
+  desktop_height: "62px"
+  desktop_width: "300px"
 
 home: 
   limit_services: 6
 
 collections:
-  services:
+  rules:
     output: true
-    sort_by: weight
-  team:
+  tests:
     output: true
 
 defaults:

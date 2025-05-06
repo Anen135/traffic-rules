@@ -1,16 +1,20 @@
 ---
-title: Contact
+title: Свяжитесь с нами
 layout: contact
 description: Contact
 ---
 
-Lorem markdownum aequalis strigis. Saetigeri iubeas, vultu huic alvum nondum de obside ut laniavit arbor palmis, cum quin. Rupes vetat videndo, armigerae crimen habet Priamum nec.
+Если у вас есть вопросы, предложения или замечания — свяжитесь с нами! Мы всегда рады обратной связи.
 
-| Day       | Opening Hours   |
-| --------- | --------------- |
-| Tuesday   | 8:30am - 5:00pm |
-| Wednesday | 8:30am - 5:00pm |
-| Thursday  | 8:30am - 5:00pm |
-| Friday    | 8:30am - 5:00pm |
-| Saturday  | 10:am - 4:00pm  |
-| Saturday  | Closed          |
+| День недели | Часы работы       |
+| ----------- | ----------------- |
+| Вторник     | 8:30 — 17:00      |
+| Среда       | 8:30 — 17:00      |
+| Четверг     | 8:30 — 17:00      |
+| Пятница     | 8:30 — 17:00      |
+| Суббота     | 10:00 — 16:00     |
+| Воскресенье | Выходной          |
+
+Вы можете написать нам на email или воспользоваться формой обратной связи на сайте.
+
+Спасибо, что помогаете нам становиться лучше!

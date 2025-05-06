@@ -32,8 +32,12 @@
     {% include header.html headerClass='header-extra' %}
     {{content}}
   </div>
+  {% if page.show_footer %}
   {% include footer.html %}
+  {% endif %}
+  {% if page.sub-footer %}
   {% include sub-footer.html %}
+  {% endif %}
   <script type="text/javascript" src="{{ '/assets/js/scripts.js' | relative_url }}"></script>
   {% include google-analytics.html %}
 </body>
