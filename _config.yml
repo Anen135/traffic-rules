@@ -1,7 +1,11 @@
-baseurl: '/'
+# Основные настройки сайта
+title: "Правила дорожного движения"
+description: "Сайт для изучения правил дорожного движения и тестов на проверку знаний."
+url: "https://Anen135.github.io"  # Замените на свой домен
+baseurl: "/traffic-rules"  # Можно оставить без изменений
 permalink: pretty
-title: 'Jekyll Serif'
 
+# Логотипы для мобильных и десктопных устройств
 logo:
   mobile: "images/logo/logo-mobile.svg"
   mobile_height: "32px"
@@ -10,34 +14,44 @@ logo:
   desktop_height: "32px"
   desktop_width: "120px"
 
-home: 
-  limit_services: 6
+# Настройки главной страницы
+home:
+  limit_services: 6  # Ограничение количества отображаемых услуг
 
+# Коллекции
 collections:
-  services:
+  # Коллекция для правил дорожного движения
+  rules:
     output: true
-    sort_by: weight
-  team:
+    sort_by: title  # Сортировка правил по названию
+  # Коллекция для тестов
+  tests:
     output: true
+    sort_by: date  # Сортировка тестов по дате
+    permalink: /tests/:title  # Пример использования тестов с кастомным URL
 
+# Настройки для вывода страниц с контентом
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "rules"
     values:
-      layout: "service"
+      layout: "rule"  # Страница правила
   - scope:
       path: ""
-      type: "team"
+      type: "tests"
     values:
-      layout: "team"
+      layout: "test"  # Страница теста
 
+# Стилизация с помощью Sass
 sass:
-  style: compressed # possible values: nested expanded compact compressed
+  style: compressed  # Минимизация стилей
 
+# Плагины
 plugins:
   - jekyll-environment-variables
 
+# Исключаемые файлы
 exclude:
   - Gemfile
   - Gemfile.lock
@@ -49,3 +63,20 @@ exclude:
   - LICENSE.md
   - LICENSE
   - README.md
+
+# Настройки для тестов
+test_settings:
+  time_limit: 30  # Время на прохождение теста (в минутах)
+  max_questions: 10  # Максимальное количество вопросов в тесте
+
+# Настройки для SEO
+seo:
+  enable: true  # Включить SEO
+  title: "Правила дорожного движения и тесты"
+  description: "Изучите правила дорожного движения и пройдите тесты на проверку знаний."
+
+# Социальные сети (если нужно)
+social:
+  twitter: "https://twitter.com/yourusername"
+  facebook: "https://facebook.com/yourusername"
+  instagram: "https://instagram.com/yourusername"
